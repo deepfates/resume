@@ -20,6 +20,8 @@ preamble = """\
 <style>
 {css}
 </style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
 </head>
 <body>
 <div id="resume">

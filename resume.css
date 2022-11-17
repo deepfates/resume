@@ -1,9 +1,13 @@
 body {
     color: #000000;
     background: #EEEEEE;
-    font: 1.1em "Times New Roman";
+    font: 1.1em serif;
     line-height: 1.2;
     margin: 40px 0;
+}
+@font-face {
+    font-family: ;
+    src: url();
 }
 #resume {
     margin: 0 auto;
@@ -32,8 +36,29 @@ h3 {
     font-size: 100%;
     margin: 0.8em 0 0.3em 0;
     padding: 0;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    /* We want three evenly spaced columns here */
+    /* The first one should have content placed at the start,
+    the second in the middle and the third at the end */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left center right";
+}
+h3 span {
+    display: inline-block;
+    width: 100%;
+}
+h3 span.left {
+    grid-area: left;
+    text-align: left;
+}
+h3 span.center {
+    grid-area: center;
+    text-align: center;
+}
+h3 span.right {
+    grid-area: right;
+    text-align: right;
 }
 p {
     margin: 0 0 0.5em 0;
