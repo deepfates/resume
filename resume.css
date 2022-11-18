@@ -5,9 +5,6 @@ body {
     line-height: 1.2;
     margin: 40px 0;
 }
-@font-face {
-    font-family: ;
-    src: url();
 }
 #resume {
     margin: 0 auto;
