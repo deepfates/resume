@@ -1,9 +1,9 @@
 
-# [View my resume](https://github.com/deepfates/resume/blob/main/Max%20Anton%20Brewer%20resume.pdf)
+## [Max Anton Brewer resume.pdf](https://github.com/deepfates/resume/blob/main/Max%20Anton%20Brewer%20resume.pdf)
+<br/>
+<br/>
 
-
----
-
+```
 # resume.md
 
 
